@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="386.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.petshop.ProductPage">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #008080;">
+            <children>
+                <TabPane prefHeight="400.0" prefWidth="352.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                        <Tab text="Food Product">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="363.0" prefWidth="362.0">
+                                    <children>
+                                        <TableView fx:id="TBFP" layoutX="21.0" layoutY="14.0" onMouseClicked="#OnSelectedFP" prefHeight="293.0" prefWidth="320.0" style="-fx-background-color: #F0FFFF;">
+                                            <columns>
+                                                <TableColumn fx:id="IDFoodItm" prefWidth="52.800048828125" text="ID" />
+                                                <TableColumn fx:id="NameFoodItm" prefWidth="140.79998779296875" text="Product Name" />
+                                                <TableColumn fx:id="QuantityFoodItm" minWidth="3.20001220703125" prefWidth="62.39996337890625" text="Quantity" />
+                                                <TableColumn fx:id="PriceFoodItm" prefWidth="62.4000244140625" text="Price" />
+                                            </columns>
+                                        </TableView>
+                                        <Button fx:id="AddBillButton121" layoutX="266.0" layoutY="325.0" mnemonicParsing="false" onAction="#OnClickAddToBill" text="Add To Bill" />
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+                        <Tab text="Food water container">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="363.0" prefWidth="362.0">
+                                    <children>
+                                        <TableView fx:id="TBFW" layoutX="21.0" layoutY="14.0" onMouseClicked="#OnSelectedFW" prefHeight="293.0" prefWidth="320.0" style="-fx-background-color: #F0FFFF;">
+                                            <columns>
+                                                <TableColumn fx:id="IDFoodCont" prefWidth="52.800048828125" text="ID" />
+                                                <TableColumn fx:id="NameFoodCont" prefWidth="140.79998779296875" text="Product Name" />
+                                                <TableColumn fx:id="QuantityFoodCont" minWidth="3.20001220703125" prefWidth="62.39996337890625" text="Quantity" />
+                                                <TableColumn fx:id="PriceFoodCont" prefWidth="62.4000244140625" text="Price" />
+                                            </columns>
+                                        </TableView>
+                                        <Button fx:id="AddBillButton1211" layoutX="266.0" layoutY="325.0" mnemonicParsing="false" onAction="#OnClickAddToBill" text="Add To Bill" />
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+                        <Tab text="Cage">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="363.0" prefWidth="362.0">
+                                    <children>
+                                        <TableView fx:id="TBC" layoutX="21.0" layoutY="14.0" onMouseClicked="#OnSelectedC" prefHeight="293.0" prefWidth="320.0" style="-fx-background-color: #F0FFFF;">
+                                            <columns>
+                                                <TableColumn fx:id="IDCage" prefWidth="52.800048828125" text="ID" />
+                                                <TableColumn fx:id="NameCage" prefWidth="140.79998779296875" text="Product Name" />
+                                                <TableColumn fx:id="QuantityCage" minWidth="3.20001220703125" prefWidth="62.39996337890625" text="Quantity" />
+                                                <TableColumn fx:id="PriceCage" prefWidth="62.4000244140625" text="Price" />
+                                            </columns>
+                                        </TableView>
+                                        <Button fx:id="AddBillButton12111" layoutX="266.0" layoutY="325.0" mnemonicParsing="false" onAction="#OnClickAddToBill" text="Add To Bill" />
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+                        <Tab text="Toys">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="363.0" prefWidth="362.0">
+                                    <children>
+                                        <TableView fx:id="TBT" layoutX="21.0" layoutY="14.0" onMouseClicked="#OnSelectedT" prefHeight="293.0" prefWidth="320.0" style="-fx-background-color: #F0FFFF;">
+                                            <columns>
+                                                <TableColumn fx:id="IDToys" prefWidth="52.800048828125" text="ID" />
+                                                <TableColumn fx:id="NameToys" prefWidth="140.79998779296875" text="Product Name" />
+                                                <TableColumn fx:id="QuantityToys" minWidth="3.20001220703125" prefWidth="62.39996337890625" text="Quantity" />
+                                                <TableColumn fx:id="PriceToys" prefWidth="62.4000244140625" text="Price" />
+                                            </columns>
+                                        </TableView>
+                                        <Button fx:id="AddBillButton12112" layoutX="266.0" layoutY="325.0" mnemonicParsing="false" onAction="#OnClickAddToBill" text="Add To Bill" />
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+                    </tabs>
+                </TabPane>
+                <Button fx:id="Animals" layoutX="400.0" mnemonicParsing="false" onAction="#OnClickAnimals" prefHeight="26.0" prefWidth="70.0" text="Animals">
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                </Button>
+                <Button fx:id="Birds" layoutX="471.0" mnemonicParsing="false" onAction="#OnClickBirds" prefHeight="27.0" prefWidth="63.0" text="Birds">
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                </Button>
+                <Button fx:id="Logout" layoutX="535.0" mnemonicParsing="false" onAction="#OnClickLogout" prefHeight="27.0" prefWidth="63.0" text="Logout">
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                </Button>
+                <TableView fx:id="Bill" layoutX="371.0" layoutY="41.0" onMouseClicked="#OnSelectedBill" prefHeight="293.0" prefWidth="222.0" style="-fx-background-color: #ECFFDC;">
+                    <columns>
+                        <TableColumn fx:id="IDBill" prefWidth="68.0" text="ID" />
+                        <TableColumn fx:id="QuantityBill" prefWidth="71.20001220703125" text="Quantity" />
+                        <TableColumn fx:id="PriceBill" prefWidth="84.800048828125" text="Price" />
+                    </columns>
+                </TableView>
+                <Button fx:id="RemoveBillButton" layoutX="485.0" layoutY="360.0" mnemonicParsing="false" onAction="#OnClickRemoveFromBill" text="Remove" />
+                <Button fx:id="PrintBill" layoutX="551.0" layoutY="360.0" mnemonicParsing="false" onAction="#OnClickPrintBill" text="Print" />
+                <Button fx:id="ClearBill" layoutX="414.0" layoutY="360.0" mnemonicParsing="false" onAction="#OnClickClearBill" text="ClearBill" />
+                <Pane layoutX="371.0" layoutY="302.0" prefHeight="34.0" prefWidth="223.0" style="-fx-background-color: #34cfeb;">
+                    <children>
+                        <Text layoutX="3.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Price" wrappingWidth="110.93673706054688">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font>
+                        </Text>
+                        <Label fx:id="Total" layoutX="158.0" prefHeight="34.0" prefWidth="63.0" style="-fx-background-color: #ebf3f5;" textAlignment="CENTER" />
+                    </children>
+                </Pane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

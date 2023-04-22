@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.petshop.logout">
+    <children>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #008080;">
+            <children>
+                <AnchorPane prefHeight="43.0" prefWidth="600.0" style="-fx-background-color: #191970;">
+                    <children>
+                        <Button fx:id="Logout" layoutX="529.0" mnemonicParsing="false" onAction="#OnClickLogout" prefHeight="42.0" prefWidth="71.0" style="-fx-background-color: #0818A8;" text="Logout" textFill="#e1d7d7">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="31.0" layoutY="54.0" prefHeight="219.0" prefWidth="541.0" style="-fx-background-color: #ECFFDC;" />
+                <ImageView fitHeight="166.0" fitWidth="229.0" layoutX="42.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/D:/Pet-Shop-using-JavaFx-main/src/main/resources/images/Animals.png" />
+               </image>
+                </ImageView>
+                <ImageView fitHeight="82.0" fitWidth="262.0" layoutX="297.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/D:/Pet-Shop-using-JavaFx-main/src/main/resources/images/Birds%20(2).png" />
+               </image>
+                </ImageView>
+                <Button fx:id="Animals" alignment="CENTER" layoutX="115.0" layoutY="217.0" mnemonicParsing="false" onAction="#onClickAnimals" prefHeight="42.0" prefWidth="103.0" text="Animals" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <effect>
+                        <Lighting>
+                            <bumpInput>
+                                <Shadow />
+                            </bumpInput>
+                            <light>
+
+                            </light>
+                        </Lighting>
+                    </effect>
+                </Button>
+                <Button fx:id="Birds" alignment="CENTER" layoutX="376.0" layoutY="217.0" mnemonicParsing="false" onAction="#onClickBirds" prefHeight="42.0" prefWidth="103.0" text="Birds" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <effect>
+                        <Lighting>
+                            <bumpInput>
+                                <Shadow />
+                            </bumpInput>
+                            <light>
+
+                            </light>
+                        </Lighting>
+                    </effect>
+                </Button>
+                <Button fx:id="ProductManage" layoutX="192.0" layoutY="335.0" mnemonicParsing="false" onAction="#OnClickProductManage" text="Manage Products">
+                    <font>
+                        <Font name="System Bold" size="23.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
