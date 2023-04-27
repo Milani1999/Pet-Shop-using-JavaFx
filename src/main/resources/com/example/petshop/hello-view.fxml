@@ -17,7 +17,7 @@
             <children>
                 <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="93.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="file:/D:/Pet-Shop-using-JavaFx-main/src/main/resources/images/login.png" />
+                  <Image url="file:/D:/petShop/src/main/resources/images/login.png" />
                </image>
                 </ImageView>
                 <Label layoutX="42.0" layoutY="188.0" text="Username">
@@ -59,7 +59,7 @@
             <children>
                 <ImageView fitHeight="371.0" fitWidth="286.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="file:/D:/Pet-Shop-using-JavaFx-main/src/main/resources/images/Logo.jpeg" />
+                  <Image url="file:/D:/petShop/src/main/resources/images/Logo.jpeg" />
                </image>
                 </ImageView>
             </children></AnchorPane>

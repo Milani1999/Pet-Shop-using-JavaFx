@@ -44,7 +44,7 @@
                     <graphic>
                         <ImageView fitHeight="157.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="file:/D:/Pet-Shop-using-JavaFx-main/src/main/resources/images/chick.jpg" />
+                        <Image url="file:/D:/petShop/src/main/resources/images/chick.jpg" />
                      </image>
                         </ImageView>
                     </graphic>
@@ -56,7 +56,7 @@
                     <graphic>
                         <ImageView fitHeight="177.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="file:/D:/Pet-Shop-using-JavaFx-main/src/main/resources/images/peagon.jpg" />
+                        <Image url="file:/D:/petShop/src/main/resources/images/peagon.jpg" />
                      </image>
                         </ImageView>
                     </graphic>
@@ -68,7 +68,7 @@
                     <graphic>
                         <ImageView fitHeight="159.0" fitWidth="117.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="file:/D:/Pet-Shop-using-JavaFx-main/src/main/resources/images/love%20birds.jpeg" />
+                        <Image url="file:/D:/petShop/src/main/resources/images/love%20birds.jpeg" />
                      </image>
                         </ImageView>
                     </graphic>
@@ -80,7 +80,7 @@
                     <graphic>
                         <ImageView fitHeight="154.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="file:/D:/Pet-Shop-using-JavaFx-main/src/main/resources/images/parrot.jpg" />
+                        <Image url="file:/D:/petShop/src/main/resources/images/parrot.jpg" />
                      </image>
                         </ImageView>
                     </graphic>

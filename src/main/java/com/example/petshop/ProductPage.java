@@ -108,7 +108,7 @@ public class ProductPage implements Initializable {
             {
                 for (int i = 0; i < ProductDatasBill.size(); i++)
                 {
-                    System.out.println("WWWE");
+                    System.out.println("Processing");
                     // code block to be executed
                     if(ProductDatasBill.get(i).getProductID()==productData.getProductID())
                     {
@@ -121,14 +121,14 @@ public class ProductPage implements Initializable {
                     }
                     else
                     {
-                        System.out.println("vaaipilla raja!!");
+                        System.out.println("Request Processing");
                     }
 
                 }
 
                 if(!isInBill)
                 {
-                    System.out.println("Nachchu");
+                    System.out.println("Processing");
                     ProductDatasBill.add(new ProductData(productData.getProductID(),productData.getProductName(),quantity, productData.getPrice()));
                     priceCalculate();
                 }
