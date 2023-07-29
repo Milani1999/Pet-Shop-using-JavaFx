@@ -13,74 +13,74 @@
 
 <AnchorPane prefHeight="600.0" prefWidth="850.0" style="-fx-background-color: #008080;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.petshop.ProductManage">
     <children>
-        <Pane layoutX="9.0" layoutY="76.0" prefHeight="500.0" prefWidth="410.0" style="-fx-background-color: #F0FFFF;">
+        <Pane layoutX="10.0" layoutY="67.0" prefHeight="520.0" prefWidth="410.0" style="-fx-background-color: #F0FFFF;">
             <children>
-                <TextField fx:id="ProductID" layoutX="227.0" layoutY="86.0" promptText="Product ID">
+                <TextField fx:id="ProductID" layoutX="215.0" layoutY="73.0" promptText="Product ID">
                     <cursor>
                         <Cursor fx:constant="TEXT" />
                     </cursor>
                 </TextField>
-                <TextField fx:id="ProductName" layoutX="227.0" layoutY="136.0" promptText="Product Name">
+                <TextField fx:id="ProductName" layoutX="215.0" layoutY="123.0" promptText="Product Name">
                     <cursor>
                         <Cursor fx:constant="TEXT" />
                     </cursor>
                 </TextField>
-                <TextField fx:id="Price" layoutX="227.0" layoutY="184.0" promptText="Price">
+                <TextField fx:id="Price" layoutX="215.0" layoutY="184.0" promptText="Price">
                     <cursor>
                         <Cursor fx:constant="TEXT" />
                     </cursor>
                 </TextField>
-                <TextField fx:id="Stock" layoutX="227.0" layoutY="232.0" promptText="Stock">
+                <TextField fx:id="Stock" layoutX="215.0" layoutY="245.0" promptText="Stock">
                     <cursor>
                         <Cursor fx:constant="TEXT" />
                     </cursor>
                 </TextField>
-                <Text layoutX="92.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product ID" />
-                <Text layoutX="92.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name" />
-                <Text layoutX="92.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
-                <Text layoutX="92.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock" />
-                <Text fill="#1c79e5" layoutX="105.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Products" textAlignment="CENTER">
+                <Text layoutX="87.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product ID" />
+                <Text layoutX="87.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name" />
+                <Text layoutX="87.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                <Text layoutX="87.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock" />
+                <Text fill="#1c79e5" layoutX="115.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Products" textAlignment="CENTER">
                     <font>
                         <Font name="System Bold Italic" size="29.0" />
                     </font>
                 </Text>
-                <Button fx:id="Add" layoutX="338.0" layoutY="395.0" mnemonicParsing="false" onAction="#OnClickAdd" text="Add" />
-                <Text layoutX="92.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pet variety" />
-                <Text layoutX="92.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Type" />
-                <ChoiceBox fx:id="PetVariety" layoutX="226.0" layoutY="283.0" prefWidth="150.0" />
-                <ChoiceBox fx:id="ProductType" layoutX="226.0" layoutY="332.0" prefWidth="150.0" />
+                <Button fx:id="Add" layoutX="326.0" layoutY="452.0" mnemonicParsing="false" onAction="#OnClickAdd" text="Add" />
+                <Text layoutX="87.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pet variety" />
+                <Text layoutX="87.0" layoutY="396.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Type" />
+                <ChoiceBox fx:id="PetVariety" layoutX="215.0" layoutY="309.0" prefWidth="150.0" />
+                <ChoiceBox fx:id="ProductType" layoutX="215.0" layoutY="379.0" prefWidth="150.0" />
             </children>
         </Pane>
-        <Pane layoutX="428.0" layoutY="76.0" prefHeight="500.0" prefWidth="410.0" style="-fx-background-color: #ECFFDC;">
+        <Pane layoutX="430.0" layoutY="67.0" prefHeight="520.0" prefWidth="410.0" style="-fx-background-color: #ECFFDC;">
             <children>
-                <TextField fx:id="ProductIDForRemove" layoutX="222.0" layoutY="116.0" promptText="Product ID">
+                <TextField fx:id="ProductIDForRemove" layoutX="146.0" layoutY="120.0" promptText="Product ID">
                     <cursor>
                         <Cursor fx:constant="TEXT" />
                     </cursor>
                 </TextField>
-                <Text layoutX="117.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product ID" />
-                <Text fill="#1c79e5" layoutX="95.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Remove or Edit Products" textAlignment="CENTER" wrappingWidth="265.0">
+                <Text layoutX="42.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product ID" />
+                <Text fill="#1c79e5" layoutX="13.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Remove or Edit Products" textAlignment="CENTER" wrappingWidth="265.0">
                     <font>
                         <Font name="System Bold Italic" size="29.0" />
                     </font>
                 </Text>
-                <Button fx:id="Remove" layoutX="213.0" layoutY="398.0" mnemonicParsing="false" onAction="#OnClickRemove" text="Remove" />
-                <TableView fx:id="View" layoutX="95.0" layoutY="204.0" onMouseClicked="#OnSelectedFromSearch" prefHeight="139.0" prefWidth="295.0">
+                <Button fx:id="Remove" layoutX="191.0" layoutY="374.0" mnemonicParsing="false" onAction="#OnClickRemove" text="Remove" />
+                <TableView fx:id="View" layoutX="42.0" layoutY="251.0" onMouseClicked="#OnSelectedFromSearch" prefHeight="91.0" prefWidth="265.0">
                     <columns>
-                        <TableColumn fx:id="IDSearch" prefWidth="71.0" text="ID" />
-                        <TableColumn fx:id="IDName" prefWidth="142.0" text="Product Name" />
-                        <TableColumn fx:id="IDPrice" minWidth="0.0" prefWidth="81.0" text="Price" />
+                        <TableColumn fx:id="IDSearch" prefWidth="63.20001220703125" text="ID" />
+                        <TableColumn fx:id="IDName" prefWidth="133.5999755859375" text="Product Name" />
+                        <TableColumn fx:id="IDPrice" minWidth="0.0" prefWidth="66.5999755859375" text="Price" />
                     </columns>
                 </TableView>
-                <Button fx:id="Search" layoutX="296.0" layoutY="165.0" mnemonicParsing="false" onAction="#OnClickSearch" text="Search" />
-                <Button fx:id="Edit" layoutX="304.0" layoutY="398.0" mnemonicParsing="false" onAction="#OnClickEdit" text="Edit" />
+                <Button fx:id="Search" layoutX="244.0" layoutY="175.0" mnemonicParsing="false" onAction="#OnClickSearch" text="Search" />
+                <Button fx:id="Edit" layoutX="270.0" layoutY="374.0" mnemonicParsing="false" onAction="#OnClickEdit" text="Edit" />
             </children>
         </Pane>
-        <Text fill="WHITE" layoutX="259.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add or Remove Products" textAlignment="CENTER">
+        <Text fill="WHITE" layoutX="259.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add or Remove Products" textAlignment="CENTER">
             <font>
                 <Font name="System Bold Italic" size="29.0" />
             </font>
         </Text>
-        <Button fx:id="Back" layoutX="9.0" layoutY="14.0" mnemonicParsing="false" onAction="#OnClickBack" prefHeight="30.0" prefWidth="94.0" text="Back" />
+        <Button fx:id="Back" layoutX="7.0" layoutY="20.0" mnemonicParsing="false" onAction="#OnClickBack" prefHeight="30.0" prefWidth="94.0" text="Back" />
     </children>
 </AnchorPane>
