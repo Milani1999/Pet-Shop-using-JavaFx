@@ -7,11 +7,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #008080;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.petshop.Animals">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="850.0" style="-fx-background-color: #008080;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.petshop.Animals">
     <children>
-        <AnchorPane prefHeight="43.0" prefWidth="600.0" style="-fx-background-color: #191970;">
+        <AnchorPane prefHeight="43.0" prefWidth="850.0" style="-fx-background-color: #191970;">
             <children>
-                <Button fx:id="Logout" layoutX="520.0" mnemonicParsing="false" onAction="#OnClickLogout" prefHeight="42.0" prefWidth="80.0" style="-fx-background-color: #58094F;" text="Logout" textFill="WHITE">
+                <Button fx:id="Logout" layoutX="770.0" mnemonicParsing="false" onAction="#OnClickLogout" prefHeight="42.0" prefWidth="80.0" style="-fx-background-color: #58094F;" text="Logout" textFill="WHITE">
                     <font>
                         <Font name="System Bold" size="14.0" />
                     </font>
@@ -19,7 +19,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </Button>
-                <Button fx:id="Birds" layoutX="300.0" layoutY="1.0" mnemonicParsing="false" onAction="#OnClickBirds" prefHeight="42.0" prefWidth="89.0" style="-fx-background-color: #0818A8;" stylesheets="@../../../images/bg.css" text="Birds" textFill="WHITE">
+                <Button fx:id="Birds" layoutX="439.0" mnemonicParsing="false" onAction="#OnClickBirds" prefHeight="42.0" prefWidth="89.0" style="-fx-background-color: #0818A8;" stylesheets="@../../../images/bg.css" text="Birds" textFill="WHITE">
                     <font>
                         <Font name="System Bold" size="14.0" />
                     </font>
@@ -27,7 +27,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </Button>
-                <Button fx:id="Animals" layoutX="210.0" layoutY="1.0" mnemonicParsing="false" onAction="#OnClickAnimals" prefHeight="42.0" prefWidth="89.0" style="-fx-background-color: #000137;" stylesheets="@../../../images/bg.css" text="Animals" textFill="WHITE">
+                <Button fx:id="Animals" layoutX="336.0" mnemonicParsing="false" onAction="#OnClickAnimals" prefHeight="42.0" prefWidth="89.0" style="-fx-background-color: #000137;" stylesheets="@../../../images/bg.css" text="Animals" textFill="WHITE">
                     <font>
                         <Font name="System Bold" size="14.0" />
                     </font>
@@ -38,7 +38,7 @@
                 <Button fx:id="Back" layoutX="-1.0" mnemonicParsing="false" onAction="#OnClickBack" prefHeight="42.0" prefWidth="80.0" text="Back" />
             </children>
         </AnchorPane>
-        <Button fx:id="Rabbit" layoutX="159.0" layoutY="200.0" mnemonicParsing="false" onAction="#OnClickRabbit" style="-fx-background-color: #000000;">
+        <Button fx:id="Rabbit" layoutX="266.0" layoutY="303.0" mnemonicParsing="false" onAction="#OnClickRabbit" style="-fx-background-color: #000000;">
             <graphic>
                 <ImageView fitHeight="157.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -50,7 +50,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <Button fx:id="Cat" layoutX="305.0" layoutY="60.0" mnemonicParsing="false" onAction="#OnClickCat" prefHeight="171.0" prefWidth="127.0" style="-fx-background-color: #000000;">
+        <Button fx:id="Cat" layoutX="468.0" layoutY="113.0" mnemonicParsing="false" onAction="#OnClickCat" prefHeight="171.0" prefWidth="127.0" style="-fx-background-color: #000000;">
             <graphic>
                 <ImageView fitHeight="177.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -62,7 +62,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <Button fx:id="Fish" layoutX="447.0" layoutY="200.0" mnemonicParsing="false" onAction="#OnClickFish" prefHeight="171.0" prefWidth="129.0" style="-fx-background-color: #000000;">
+        <Button fx:id="Fish" layoutX="678.0" layoutY="300.0" mnemonicParsing="false" onAction="#OnClickFish" prefHeight="171.0" prefWidth="129.0" style="-fx-background-color: #000000;">
             <graphic>
                 <ImageView fitHeight="159.0" fitWidth="117.0" pickOnBounds="true" preserveRatio="true">
                     <image>
@@ -74,7 +74,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <Button fx:id="Dog" layoutX="14.0" layoutY="54.0" mnemonicParsing="false" onAction="#OnClickDog" style="-fx-background-color: #000000;">
+        <Button fx:id="Dog" layoutX="95.0" layoutY="117.0" mnemonicParsing="false" onAction="#OnClickDog" style="-fx-background-color: #000000;">
             <graphic>
                 <ImageView fitHeight="154.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
                     <image>

@@ -11,42 +11,42 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.petshop.Login">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.petshop.Login">
     <right>
-        <AnchorPane prefHeight="400.0" prefWidth="329.0" BorderPane.alignment="CENTER">
+        <AnchorPane prefHeight="600.0" prefWidth="425.0" BorderPane.alignment="CENTER">
             <children>
-                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="93.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fitHeight="192.0" fitWidth="226.0" layoutX="144.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="file:/D:/petShop/src/main/resources/images/login.png" />
                </image>
                 </ImageView>
-                <Label layoutX="42.0" layoutY="188.0" text="Username">
+                <Label layoutX="85.0" layoutY="266.0" text="Username">
                     <font>
                         <Font name="System Bold" size="16.0" />
                     </font>
                 </Label>
-                <Label layoutX="44.0" layoutY="240.0" text="Password">
+                <Label layoutX="87.0" layoutY="336.0" text="Password">
                     <font>
                         <Font name="System Bold" size="16.0" />
                     </font>
                 </Label>
-                <TextField fx:id="username" layoutX="149.0" layoutY="192.0" promptText="Username">
+                <TextField fx:id="username" layoutX="237.0" layoutY="266.0" promptText="Username">
                     <cursor>
                         <Cursor fx:constant="TEXT" />
                     </cursor></TextField>
-                <Button fx:id="button" layoutX="132.0" layoutY="322.0" mnemonicParsing="false" onAction="#onLogin" style="-fx-background-color: #D8D8D8;" text="Login">
+                <Button fx:id="button" layoutX="201.0" layoutY="429.0" mnemonicParsing="false" onAction="#onLogin" style="-fx-background-color: #D8D8D8;" text="Login">
                     <font>
-                        <Font name="System Bold" size="14.0" />
+                        <Font name="System Bold" size="18.0" />
                     </font>
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </Button>
-                <PasswordField fx:id="password" layoutX="149.0" layoutY="240.0" promptText="Password">
+                <PasswordField fx:id="password" layoutX="237.0" layoutY="336.0" promptText="Password">
                     <cursor>
                         <Cursor fx:constant="TEXT" />
                     </cursor></PasswordField>
-                <Label fx:id="ErrorLabel" layoutX="61.0" layoutY="273.0" prefHeight="49.0" prefWidth="227.0" textFill="#cd0e0e">
+                <Label fx:id="ErrorLabel" layoutX="123.0" layoutY="361.0" prefHeight="49.0" prefWidth="227.0" textFill="#cd0e0e">
                     <font>
                         <Font name="System Bold" size="13.0" />
                     </font>
@@ -55,9 +55,9 @@
         </AnchorPane>
     </right>
     <left>
-        <AnchorPane prefHeight="400.0" prefWidth="285.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
+        <AnchorPane prefHeight="400.0" prefWidth="425.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
             <children>
-                <ImageView fitHeight="371.0" fitWidth="286.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fitHeight="600.0" fitWidth="425.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="file:/D:/petShop/src/main/resources/images/Logo.jpeg" />
                </image>
